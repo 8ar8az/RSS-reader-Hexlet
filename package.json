@@ -1,0 +1,43 @@
+{
+  "name": "rss-reader-hexlet",
+  "version": "0.0.1",
+  "description": "Web-application for a reading of rss feeds",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8ar8az/RSS-reader-Hexlet.git"
+  },
+  "keywords": [
+    "rss",
+    "feed",
+    "web",
+    "reader"
+  ],
+  "author": "8ar8az",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8ar8az/RSS-reader-Hexlet/issues"
+  },
+  "homepage": "https://github.com/8ar8az/RSS-reader-Hexlet#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "browserslist": "^4.4.1",
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-lodash": "^5.1.0",
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "lodash": "^4.17.11"
+  }
+}
