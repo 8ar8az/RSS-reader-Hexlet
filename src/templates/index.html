@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title><%- appName %></title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1"><%- appName %></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <div class="navbar-nav text-center">
+            <a class="nav-item nav-link" href="#"><%- mainPage %></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container mt-3">
+        <div class="jumbotron" style="background-color:#dfeef5;">
+          <h1 class="display-4"><%- welcome %></h1>
+          <p class="lead"><%- introducing %></p>
+          <hr class="my-4">
+          <p><%- instruction %><span class="font-weight-bold"> "<%- subscribe %>"</span></p>
+          <form class="form-inline">
+            <div class="input-group input-group-lg flex-grow-1">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="rss-feed-address-input"><%- address %></span>
+              </div>
+              <input type="url" class="form-control" aria-label="rss-feed address" aria-describedby="rss-feed-address-input">
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto"><%- subscribe %></button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

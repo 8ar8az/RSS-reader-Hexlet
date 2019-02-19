@@ -1,0 +1,9 @@
+---
+
+appName: 'RSS-reader'
+mainPage: 'Главная'
+welcome: 'Добрый день!'
+introducing: 'Начните следить за своими RSS-лентами прямо сейчас!'
+instruction: 'Введите адрес RSS-ленты и нажмите на кнопку'
+address: 'Адрес'
+subscribe: 'Подписаться'

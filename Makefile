@@ -1,12 +1,9 @@
 install:
 	npm install
 
-run:
-	npx babel-node -- 
-
 build:
 	rm -rf dist
-	npm run build
+	NODE_ENV=production npx webpack
 
 publish:
 	rm -rf dist
