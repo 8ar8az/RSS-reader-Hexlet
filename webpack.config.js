@@ -8,6 +8,9 @@ const textContent = yamlParser.safeLoad(fs.readFileSync(textContentFile, 'UTF-8'
 
 module.exports = {
   mode: process.env.NODE_ENV || 'development',
+  devServer: {
+    contentBase: path.resolve(__dirname, 'dist'),
+  },
   module: {
     rules: [
       {

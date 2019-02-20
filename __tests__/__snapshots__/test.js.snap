@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input invalid RSS-feed URL 1`] = `
+"<head>
+    <meta charset=\\"utf-8\\">
+    <title>RSS-reader</title>
+  <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1, shrink-to-fit=no\\"><script type=\\"text/javascript\\" src=\\"main.js\\"></script></head>
+  <body>
+    <header>
+      <nav class=\\"navbar navbar-expand-sm navbar-dark bg-dark\\">
+        <span class=\\"navbar-brand mb-0 h1\\">RSS-reader</span>
+        <button class=\\"navbar-toggler\\" type=\\"button\\" data-toggle=\\"collapse\\" data-target=\\"#navbar-content\\" aria-controls=\\"navbar-content\\" aria-expanded=\\"false\\" aria-label=\\"Toggle navigation\\">
+          <span class=\\"navbar-toggler-icon\\"></span>
+        </button>
+        <div class=\\"collapse navbar-collapse\\" id=\\"navbar-content\\">
+          <div class=\\"navbar-nav text-center\\">
+            <a class=\\"nav-item nav-link\\" href=\\"#\\">Главная</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class=\\"container mt-3\\">
+        <div class=\\"jumbotron\\">
+          <h1 class=\\"display-4\\">Добрый день!</h1>
+          <p class=\\"lead\\">Начните следить за своими RSS-лентами прямо сейчас!</p>
+          <hr class=\\"my-4\\">
+          <p>Введите адрес RSS-ленты и нажмите на кнопку<span class=\\"font-weight-bold\\"> \\"Подписаться\\"</span></p>
+          <form id=\\"form-for-adding-feeds\\" class=\\"form-inline\\">
+            <div class=\\"input-group input-group-lg flex-grow-1\\">
+              <div class=\\"input-group-prepend\\">
+                <span class=\\"input-group-text bg-primary text-white\\" id=\\"rss-feed-address-input\\">Адрес</span>
+              </div>
+              <input type=\\"text\\" name=\\"feed-url\\" id=\\"feed-url\\" class=\\"form-control is-invalid\\" aria-label=\\"rss-feed address\\" aria-describedby=\\"rss-feed-address-input\\" style=\\"background-image: none;\\">
+            </div>
+            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" disabled=\\"\\">Подписаться</button>
+          </form>
+        </div>
+      </div>
+      <div class=\\"container-fluid\\">
+        <div class=\\"row justify-content-center mb-2\\">
+          <h2>Ваши RSS-ленты</h2>
+        </div>
+        <div class=\\"row rss-container\\"></div>
+      </div>
+    </main>
+  
+</body>"
+`;
+
+exports[`Input valid RSS-feed URL 1`] = `
+"<head>
+    <meta charset=\\"utf-8\\">
+    <title>RSS-reader</title>
+  <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1, shrink-to-fit=no\\"><script type=\\"text/javascript\\" src=\\"main.js\\"></script></head>
+  <body>
+    <header>
+      <nav class=\\"navbar navbar-expand-sm navbar-dark bg-dark\\">
+        <span class=\\"navbar-brand mb-0 h1\\">RSS-reader</span>
+        <button class=\\"navbar-toggler\\" type=\\"button\\" data-toggle=\\"collapse\\" data-target=\\"#navbar-content\\" aria-controls=\\"navbar-content\\" aria-expanded=\\"false\\" aria-label=\\"Toggle navigation\\">
+          <span class=\\"navbar-toggler-icon\\"></span>
+        </button>
+        <div class=\\"collapse navbar-collapse\\" id=\\"navbar-content\\">
+          <div class=\\"navbar-nav text-center\\">
+            <a class=\\"nav-item nav-link\\" href=\\"#\\">Главная</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class=\\"container mt-3\\">
+        <div class=\\"jumbotron\\">
+          <h1 class=\\"display-4\\">Добрый день!</h1>
+          <p class=\\"lead\\">Начните следить за своими RSS-лентами прямо сейчас!</p>
+          <hr class=\\"my-4\\">
+          <p>Введите адрес RSS-ленты и нажмите на кнопку<span class=\\"font-weight-bold\\"> \\"Подписаться\\"</span></p>
+          <form id=\\"form-for-adding-feeds\\" class=\\"form-inline\\">
+            <div class=\\"input-group input-group-lg flex-grow-1\\">
+              <div class=\\"input-group-prepend\\">
+                <span class=\\"input-group-text bg-primary text-white\\" id=\\"rss-feed-address-input\\">Адрес</span>
+              </div>
+              <input type=\\"text\\" name=\\"feed-url\\" id=\\"feed-url\\" class=\\"form-control\\" aria-label=\\"rss-feed address\\" aria-describedby=\\"rss-feed-address-input\\" style=\\"background-image: none;\\">
+            </div>
+            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\">Подписаться</button>
+          </form>
+        </div>
+      </div>
+      <div class=\\"container-fluid\\">
+        <div class=\\"row justify-content-center mb-2\\">
+          <h2>Ваши RSS-ленты</h2>
+        </div>
+        <div class=\\"row rss-container\\"></div>
+      </div>
+    </main>
+  
+</body>"
+`;
+
+exports[`Start RSS-reader 1`] = `
+"<head>
+    <meta charset=\\"utf-8\\">
+    <title>RSS-reader</title>
+  <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1, shrink-to-fit=no\\"><script type=\\"text/javascript\\" src=\\"main.js\\"></script></head>
+  <body>
+    <header>
+      <nav class=\\"navbar navbar-expand-sm navbar-dark bg-dark\\">
+        <span class=\\"navbar-brand mb-0 h1\\">RSS-reader</span>
+        <button class=\\"navbar-toggler\\" type=\\"button\\" data-toggle=\\"collapse\\" data-target=\\"#navbar-content\\" aria-controls=\\"navbar-content\\" aria-expanded=\\"false\\" aria-label=\\"Toggle navigation\\">
+          <span class=\\"navbar-toggler-icon\\"></span>
+        </button>
+        <div class=\\"collapse navbar-collapse\\" id=\\"navbar-content\\">
+          <div class=\\"navbar-nav text-center\\">
+            <a class=\\"nav-item nav-link\\" href=\\"#\\">Главная</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class=\\"container mt-3\\">
+        <div class=\\"jumbotron\\">
+          <h1 class=\\"display-4\\">Добрый день!</h1>
+          <p class=\\"lead\\">Начните следить за своими RSS-лентами прямо сейчас!</p>
+          <hr class=\\"my-4\\">
+          <p>Введите адрес RSS-ленты и нажмите на кнопку<span class=\\"font-weight-bold\\"> \\"Подписаться\\"</span></p>
+          <form id=\\"form-for-adding-feeds\\" class=\\"form-inline\\">
+            <div class=\\"input-group input-group-lg flex-grow-1\\">
+              <div class=\\"input-group-prepend\\">
+                <span class=\\"input-group-text bg-primary text-white\\" id=\\"rss-feed-address-input\\">Адрес</span>
+              </div>
+              <input type=\\"text\\" name=\\"feed-url\\" id=\\"feed-url\\" class=\\"form-control\\" aria-label=\\"rss-feed address\\" aria-describedby=\\"rss-feed-address-input\\">
+            </div>
+            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" disabled=\\"\\">Подписаться</button>
+          </form>
+        </div>
+      </div>
+      <div class=\\"container-fluid\\">
+        <div class=\\"row justify-content-center mb-2\\">
+          <h2>Ваши RSS-ленты</h2>
+        </div>
+        <div class=\\"row rss-container\\"></div>
+      </div>
+    </main>
+  
+</body>"
+`;
+
+exports[`Submit RSS-feed adding 1`] = `
+"<head>
+    <meta charset=\\"utf-8\\">
+    <title>RSS-reader</title>
+  <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1, shrink-to-fit=no\\"><script type=\\"text/javascript\\" src=\\"main.js\\"></script></head>
+  <body>
+    <header>
+      <nav class=\\"navbar navbar-expand-sm navbar-dark bg-dark\\">
+        <span class=\\"navbar-brand mb-0 h1\\">RSS-reader</span>
+        <button class=\\"navbar-toggler\\" type=\\"button\\" data-toggle=\\"collapse\\" data-target=\\"#navbar-content\\" aria-controls=\\"navbar-content\\" aria-expanded=\\"false\\" aria-label=\\"Toggle navigation\\">
+          <span class=\\"navbar-toggler-icon\\"></span>
+        </button>
+        <div class=\\"collapse navbar-collapse\\" id=\\"navbar-content\\">
+          <div class=\\"navbar-nav text-center\\">
+            <a class=\\"nav-item nav-link\\" href=\\"#\\">Главная</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class=\\"container mt-3\\">
+        <div class=\\"jumbotron\\">
+          <h1 class=\\"display-4\\">Добрый день!</h1>
+          <p class=\\"lead\\">Начните следить за своими RSS-лентами прямо сейчас!</p>
+          <hr class=\\"my-4\\">
+          <p>Введите адрес RSS-ленты и нажмите на кнопку<span class=\\"font-weight-bold\\"> \\"Подписаться\\"</span></p>
+          <form id=\\"form-for-adding-feeds\\" class=\\"form-inline\\">
+            <div class=\\"input-group input-group-lg flex-grow-1\\">
+              <div class=\\"input-group-prepend\\">
+                <span class=\\"input-group-text bg-primary text-white\\" id=\\"rss-feed-address-input\\">Адрес</span>
+              </div>
+              <input type=\\"text\\" name=\\"feed-url\\" id=\\"feed-url\\" class=\\"form-control\\" aria-label=\\"rss-feed address\\" aria-describedby=\\"rss-feed-address-input\\" style=\\"background-image: none;\\">
+            </div>
+            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" disabled=\\"\\">Подписаться</button>
+          </form>
+        </div>
+      </div>
+      <div class=\\"container-fluid\\">
+        <div class=\\"row justify-content-center mb-2\\">
+          <h2>Ваши RSS-ленты</h2>
+        </div>
+        <div class=\\"row rss-container\\"><div class=\\"col-12 col-sm-6 col-md-4 mb-3\\">
+  <div class=\\"card\\">
+    <div class=\\"card-body\\">
+      <h5 class=\\"card-title\\">Lorem ipsum feed for an interval of 1 years</h5>
+      <p class=\\"card-text\\">This is a constantly updating lorem ipsum feed</p>
+    </div>
+    <ul class=\\"list-group list-group-flush\\">
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1546300800\\" target=\\"_blank\\">Lorem ipsum 2019-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1514764800\\" target=\\"_blank\\">Lorem ipsum 2018-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1483228800\\" target=\\"_blank\\">Lorem ipsum 2017-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1451606400\\" target=\\"_blank\\">Lorem ipsum 2016-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1420070400\\" target=\\"_blank\\">Lorem ipsum 2015-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1388534400\\" target=\\"_blank\\">Lorem ipsum 2014-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1356998400\\" target=\\"_blank\\">Lorem ipsum 2013-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1325376000\\" target=\\"_blank\\">Lorem ipsum 2012-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1293840000\\" target=\\"_blank\\">Lorem ipsum 2011-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1262304000\\" target=\\"_blank\\">Lorem ipsum 2010-01-01T00:00:00Z</a></li>
+      
+    </ul>
+  </div>
+</div></div>
+      </div>
+    </main>
+  
+</body>"
+`;
+
+exports[`Submit RSS-feed adding for not RSS-url 1`] = `
+"<head>
+    <meta charset=\\"utf-8\\">
+    <title>RSS-reader</title>
+  <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1, shrink-to-fit=no\\"><script type=\\"text/javascript\\" src=\\"main.js\\"></script></head>
+  <body class=\\"modal-open\\">
+    <header>
+      <nav class=\\"navbar navbar-expand-sm navbar-dark bg-dark\\">
+        <span class=\\"navbar-brand mb-0 h1\\">RSS-reader</span>
+        <button class=\\"navbar-toggler\\" type=\\"button\\" data-toggle=\\"collapse\\" data-target=\\"#navbar-content\\" aria-controls=\\"navbar-content\\" aria-expanded=\\"false\\" aria-label=\\"Toggle navigation\\">
+          <span class=\\"navbar-toggler-icon\\"></span>
+        </button>
+        <div class=\\"collapse navbar-collapse\\" id=\\"navbar-content\\">
+          <div class=\\"navbar-nav text-center\\">
+            <a class=\\"nav-item nav-link\\" href=\\"#\\">Главная</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class=\\"container mt-3\\">
+        <div class=\\"jumbotron\\">
+          <h1 class=\\"display-4\\">Добрый день!</h1>
+          <p class=\\"lead\\">Начните следить за своими RSS-лентами прямо сейчас!</p>
+          <hr class=\\"my-4\\">
+          <p>Введите адрес RSS-ленты и нажмите на кнопку<span class=\\"font-weight-bold\\"> \\"Подписаться\\"</span></p>
+          <form id=\\"form-for-adding-feeds\\" class=\\"form-inline\\">
+            <div class=\\"input-group input-group-lg flex-grow-1\\">
+              <div class=\\"input-group-prepend\\">
+                <span class=\\"input-group-text bg-primary text-white\\" id=\\"rss-feed-address-input\\">Адрес</span>
+              </div>
+              <input type=\\"text\\" name=\\"feed-url\\" id=\\"feed-url\\" class=\\"form-control\\" aria-label=\\"rss-feed address\\" aria-describedby=\\"rss-feed-address-input\\" style=\\"background-image: none;\\">
+            </div>
+            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" disabled=\\"\\">Подписаться</button>
+          </form>
+        </div>
+      </div>
+      <div class=\\"container-fluid\\">
+        <div class=\\"row justify-content-center mb-2\\">
+          <h2>Ваши RSS-ленты</h2>
+        </div>
+        <div class=\\"row rss-container\\"><div class=\\"col-12 col-sm-6 col-md-4 mb-3\\">
+  <div class=\\"card\\">
+    <div class=\\"card-body\\">
+      <h5 class=\\"card-title\\">Lorem ipsum feed for an interval of 1 years</h5>
+      <p class=\\"card-text\\">This is a constantly updating lorem ipsum feed</p>
+    </div>
+    <ul class=\\"list-group list-group-flush\\">
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1546300800\\" target=\\"_blank\\">Lorem ipsum 2019-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1514764800\\" target=\\"_blank\\">Lorem ipsum 2018-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1483228800\\" target=\\"_blank\\">Lorem ipsum 2017-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1451606400\\" target=\\"_blank\\">Lorem ipsum 2016-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1420070400\\" target=\\"_blank\\">Lorem ipsum 2015-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1388534400\\" target=\\"_blank\\">Lorem ipsum 2014-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1356998400\\" target=\\"_blank\\">Lorem ipsum 2013-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1325376000\\" target=\\"_blank\\">Lorem ipsum 2012-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1293840000\\" target=\\"_blank\\">Lorem ipsum 2011-01-01T00:00:00Z</a></li>
+      
+        <li class=\\"list-group-item\\"><a href=\\"http://example.com/test/1262304000\\" target=\\"_blank\\">Lorem ipsum 2010-01-01T00:00:00Z</a></li>
+      
+    </ul>
+  </div>
+</div></div>
+      </div>
+    </main>
+  
+<div class=\\"modal fade show\\" id=\\"modal-error-report\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"modal-error-report-title\\" style=\\"padding-right: 0px; display: block;\\" aria-modal=\\"true\\">
+  <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+    <div class=\\"modal-content\\">
+      <div class=\\"modal-header\\">
+        <h5 class=\\"modal-title\\" id=\\"modal-error-report-title\\">При добавлении RSS-ленты произошла ошибка</h5>
+        <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+          <span aria-hidden=\\"true\\">×</span>
+        </button>
+      </div>
+      <div class=\\"modal-body\\">
+        <ul class=\\"list-group list-group-flush\\">
+          <li class=\\"list-group-item\\"><span class=\\"font-weight-bold\\">Адрес RSS-ленты: </span>http://gdgdggsdfhsdh.ru</li>
+          <li class=\\"list-group-item\\"><span class=\\"font-weight-bold\\">Ошибка: </span>Request failed with status code 404</li>
+        </ul>
+      </div>
+      <div class=\\"modal-footer\\">
+        <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+      </div>
+    </div>
+  </div>
+</div><div class=\\"modal-backdrop fade show\\"></div></body>"
+`;

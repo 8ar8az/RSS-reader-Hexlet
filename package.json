@@ -4,7 +4,8 @@
   "description": "Web-application for a reading of rss feeds",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -41,13 +42,17 @@
     "js-yaml": "^3.12.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
     "lodash": "^4.17.11",
-    "popper.js": "^1.14.7"
+    "melanke-watchjs": "^1.5.0",
+    "popper.js": "^1.14.7",
+    "validator": "^10.11.0"
   }
 }
