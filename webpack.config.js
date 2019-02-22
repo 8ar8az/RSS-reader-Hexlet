@@ -29,7 +29,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/templates/index.html'),
-      inject: 'head',
       meta: {
         viewport: 'width=device-width, initial-scale=1, shrink-to-fit=no',
       },

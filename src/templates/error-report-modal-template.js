@@ -10,7 +10,7 @@ export default `
       </div>
       <div class="modal-body">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><span class="font-weight-bold">Адрес RSS-ленты: </span><%- url %></li>
+          <li class="list-group-item"><span class="font-weight-bold">Адрес RSS-ленты: </span><%- feedUrl %></li>
           <li class="list-group-item"><span class="font-weight-bold">Ошибка: </span><%- error.message %></li>
         </ul>
       </div>

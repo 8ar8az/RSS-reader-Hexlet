@@ -185,255 +185,224 @@ exports[`Submit RSS-feed adding 1`] = `
         <div class=\\"row justify-content-center mb-2\\">
           <h2>Ваши RSS-ленты</h2>
         </div>
-        <div class=\\"row rss-container\\"><div class=\\"col-12 col-sm-6 col-md-4 mb-3\\">
+        <div class=\\"row rss-container\\"><div id=\\"httploremrssherokuappcomfeedunityear\\" class=\\"col-12 col-sm-6 col-md-4 mb-3\\">
   <div class=\\"card\\">
     <div class=\\"card-body\\">
       <h5 class=\\"card-title\\">Lorem ipsum feed for an interval of 1 years</h5>
       <p class=\\"card-text\\">This is a constantly updating lorem ipsum feed</p>
     </div>
-    <ul class=\\"list-group list-group-flush\\">
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-0\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1546300800\\" target=\\"_blank\\">Lorem ipsum 2019-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-0\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-0-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-0-title\\">Lorem ipsum 2019-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Id sint commodo duis duis commodo laboris Lorem laborum laborum Lorem quis laborum labore.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-1\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1514764800\\" target=\\"_blank\\">Lorem ipsum 2018-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-1\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-1-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-1-title\\">Lorem ipsum 2018-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Consequat laborum dolore nulla adipisicing eu magna elit consectetur irure.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-2\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1483228800\\" target=\\"_blank\\">Lorem ipsum 2017-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-2\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-2-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-2-title\\">Lorem ipsum 2017-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Voluptate laboris laborum duis esse dolore dolore velit.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-3\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1451606400\\" target=\\"_blank\\">Lorem ipsum 2016-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-3\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-3-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-3-title\\">Lorem ipsum 2016-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Quis Lorem laboris esse veniam amet sunt do pariatur.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-4\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1420070400\\" target=\\"_blank\\">Lorem ipsum 2015-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-4\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-4-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-4-title\\">Lorem ipsum 2015-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Do non aliquip esse aute ad pariatur.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-5\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1388534400\\" target=\\"_blank\\">Lorem ipsum 2014-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-5\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-5-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-5-title\\">Lorem ipsum 2014-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Voluptate qui consequat enim veniam cupidatat ut dolor in.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-6\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1356998400\\" target=\\"_blank\\">Lorem ipsum 2013-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-6\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-6-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-6-title\\">Lorem ipsum 2013-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Do consequat consequat eiusmod occaecat.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-7\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1325376000\\" target=\\"_blank\\">Lorem ipsum 2012-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-7\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-7-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-7-title\\">Lorem ipsum 2012-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Nulla cupidatat proident cillum dolore ex incididunt exercitation deserunt non aute velit id eiusmod elit.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-8\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1293840000\\" target=\\"_blank\\">Lorem ipsum 2011-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-8\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-8-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-8-title\\">Lorem ipsum 2011-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Reprehenderit fugiat ea Lorem nostrud do eiusmod eu anim veniam nulla pariatur.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-9\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1262304000\\" target=\\"_blank\\">Lorem ipsum 2010-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-9\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-9-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-9-title\\">Lorem ipsum 2010-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Amet sunt dolor consequat culpa nulla veniam labore nulla anim.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-    </ul>
+    <ul class=\\"list-group list-group-flush articles-list\\">
+    <li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1546300800\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1546300800\\" target=\\"_blank\\">Lorem ipsum 2019-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1546300800\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1546300800-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1546300800-title\\">Lorem ipsum 2019-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Id sint commodo duis duis commodo laboris Lorem laborum laborum Lorem quis laborum labore.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1514764800\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1514764800\\" target=\\"_blank\\">Lorem ipsum 2018-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1514764800\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1514764800-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1514764800-title\\">Lorem ipsum 2018-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Consequat laborum dolore nulla adipisicing eu magna elit consectetur irure.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1483228800\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1483228800\\" target=\\"_blank\\">Lorem ipsum 2017-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1483228800\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1483228800-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1483228800-title\\">Lorem ipsum 2017-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Voluptate laboris laborum duis esse dolore dolore velit.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1451606400\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1451606400\\" target=\\"_blank\\">Lorem ipsum 2016-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1451606400\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1451606400-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1451606400-title\\">Lorem ipsum 2016-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Quis Lorem laboris esse veniam amet sunt do pariatur.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1420070400\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1420070400\\" target=\\"_blank\\">Lorem ipsum 2015-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1420070400\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1420070400-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1420070400-title\\">Lorem ipsum 2015-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Do non aliquip esse aute ad pariatur.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1388534400\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1388534400\\" target=\\"_blank\\">Lorem ipsum 2014-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1388534400\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1388534400-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1388534400-title\\">Lorem ipsum 2014-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Voluptate qui consequat enim veniam cupidatat ut dolor in.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1356998400\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1356998400\\" target=\\"_blank\\">Lorem ipsum 2013-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1356998400\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1356998400-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1356998400-title\\">Lorem ipsum 2013-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Do consequat consequat eiusmod occaecat.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1325376000\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1325376000\\" target=\\"_blank\\">Lorem ipsum 2012-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1325376000\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1325376000-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1325376000-title\\">Lorem ipsum 2012-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Nulla cupidatat proident cillum dolore ex incididunt exercitation deserunt non aute velit id eiusmod elit.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1293840000\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1293840000\\" target=\\"_blank\\">Lorem ipsum 2011-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1293840000\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1293840000-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1293840000-title\\">Lorem ipsum 2011-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Reprehenderit fugiat ea Lorem nostrud do eiusmod eu anim veniam nulla pariatur.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1262304000\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1262304000\\" target=\\"_blank\\">Lorem ipsum 2010-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1262304000\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1262304000-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1262304000-title\\">Lorem ipsum 2010-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Amet sunt dolor consequat culpa nulla veniam labore nulla anim.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li></ul>
   </div>
 </div></div>
       </div>
@@ -483,255 +452,224 @@ exports[`Submit RSS-feed adding for not RSS-url 1`] = `
         <div class=\\"row justify-content-center mb-2\\">
           <h2>Ваши RSS-ленты</h2>
         </div>
-        <div class=\\"row rss-container\\"><div class=\\"col-12 col-sm-6 col-md-4 mb-3\\">
+        <div class=\\"row rss-container\\"><div id=\\"httploremrssherokuappcomfeedunityear\\" class=\\"col-12 col-sm-6 col-md-4 mb-3\\">
   <div class=\\"card\\">
     <div class=\\"card-body\\">
       <h5 class=\\"card-title\\">Lorem ipsum feed for an interval of 1 years</h5>
       <p class=\\"card-text\\">This is a constantly updating lorem ipsum feed</p>
     </div>
-    <ul class=\\"list-group list-group-flush\\">
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-0\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1546300800\\" target=\\"_blank\\">Lorem ipsum 2019-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-0\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-0-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-0-title\\">Lorem ipsum 2019-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Id sint commodo duis duis commodo laboris Lorem laborum laborum Lorem quis laborum labore.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-1\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1514764800\\" target=\\"_blank\\">Lorem ipsum 2018-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-1\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-1-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-1-title\\">Lorem ipsum 2018-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Consequat laborum dolore nulla adipisicing eu magna elit consectetur irure.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-2\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1483228800\\" target=\\"_blank\\">Lorem ipsum 2017-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-2\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-2-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-2-title\\">Lorem ipsum 2017-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Voluptate laboris laborum duis esse dolore dolore velit.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-3\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1451606400\\" target=\\"_blank\\">Lorem ipsum 2016-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-3\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-3-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-3-title\\">Lorem ipsum 2016-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Quis Lorem laboris esse veniam amet sunt do pariatur.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-4\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1420070400\\" target=\\"_blank\\">Lorem ipsum 2015-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-4\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-4-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-4-title\\">Lorem ipsum 2015-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Do non aliquip esse aute ad pariatur.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-5\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1388534400\\" target=\\"_blank\\">Lorem ipsum 2014-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-5\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-5-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-5-title\\">Lorem ipsum 2014-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Voluptate qui consequat enim veniam cupidatat ut dolor in.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-6\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1356998400\\" target=\\"_blank\\">Lorem ipsum 2013-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-6\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-6-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-6-title\\">Lorem ipsum 2013-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Do consequat consequat eiusmod occaecat.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-7\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1325376000\\" target=\\"_blank\\">Lorem ipsum 2012-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-7\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-7-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-7-title\\">Lorem ipsum 2012-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Nulla cupidatat proident cillum dolore ex incididunt exercitation deserunt non aute velit id eiusmod elit.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-8\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1293840000\\" target=\\"_blank\\">Lorem ipsum 2011-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-8\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-8-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-8-title\\">Lorem ipsum 2011-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Reprehenderit fugiat ea Lorem nostrud do eiusmod eu anim veniam nulla pariatur.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-        
-        <li class=\\"list-group-item\\">
-          <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httpexamplecom-9\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
-          <a href=\\"http://example.com/test/1262304000\\" target=\\"_blank\\">Lorem ipsum 2010-01-01T00:00:00Z</a>
-          <div class=\\"modal fade\\" id=\\"httpexamplecom-9\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httpexamplecom-9-title\\" aria-hidden=\\"true\\">
-            <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
-              <div class=\\"modal-content\\">
-                <div class=\\"modal-header\\">
-                  <h5 class=\\"modal-title\\" id=\\"httpexamplecom-9-title\\">Lorem ipsum 2010-01-01T00:00:00Z</h5>
-                  <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
-                    <span aria-hidden=\\"true\\">×</span>
-                  </button>
-                </div>
-                <div class=\\"modal-body\\">
-                  Amet sunt dolor consequat culpa nulla veniam labore nulla anim.
-                </div>
-                <div class=\\"modal-footer\\">
-                  <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-      
-    </ul>
+    <ul class=\\"list-group list-group-flush articles-list\\">
+    <li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1546300800\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1546300800\\" target=\\"_blank\\">Lorem ipsum 2019-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1546300800\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1546300800-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1546300800-title\\">Lorem ipsum 2019-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Id sint commodo duis duis commodo laboris Lorem laborum laborum Lorem quis laborum labore.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1514764800\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1514764800\\" target=\\"_blank\\">Lorem ipsum 2018-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1514764800\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1514764800-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1514764800-title\\">Lorem ipsum 2018-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Consequat laborum dolore nulla adipisicing eu magna elit consectetur irure.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1483228800\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1483228800\\" target=\\"_blank\\">Lorem ipsum 2017-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1483228800\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1483228800-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1483228800-title\\">Lorem ipsum 2017-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Voluptate laboris laborum duis esse dolore dolore velit.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1451606400\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1451606400\\" target=\\"_blank\\">Lorem ipsum 2016-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1451606400\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1451606400-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1451606400-title\\">Lorem ipsum 2016-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Quis Lorem laboris esse veniam amet sunt do pariatur.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1420070400\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1420070400\\" target=\\"_blank\\">Lorem ipsum 2015-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1420070400\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1420070400-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1420070400-title\\">Lorem ipsum 2015-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Do non aliquip esse aute ad pariatur.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1388534400\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1388534400\\" target=\\"_blank\\">Lorem ipsum 2014-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1388534400\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1388534400-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1388534400-title\\">Lorem ipsum 2014-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Voluptate qui consequat enim veniam cupidatat ut dolor in.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1356998400\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1356998400\\" target=\\"_blank\\">Lorem ipsum 2013-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1356998400\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1356998400-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1356998400-title\\">Lorem ipsum 2013-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Do consequat consequat eiusmod occaecat.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1325376000\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1325376000\\" target=\\"_blank\\">Lorem ipsum 2012-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1325376000\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1325376000-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1325376000-title\\">Lorem ipsum 2012-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Nulla cupidatat proident cillum dolore ex incididunt exercitation deserunt non aute velit id eiusmod elit.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1293840000\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1293840000\\" target=\\"_blank\\">Lorem ipsum 2011-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1293840000\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1293840000-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1293840000-title\\">Lorem ipsum 2011-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Reprehenderit fugiat ea Lorem nostrud do eiusmod eu anim veniam nulla pariatur.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li><li class=\\"list-group-item\\">
+  <button type=\\"button\\" data-toggle=\\"modal\\" data-target=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1262304000\\" class=\\"btn btn-primary btn-sm float-right ml-2\\">Описание</button>
+  <a href=\\"http://example.com/test/1262304000\\" target=\\"_blank\\">Lorem ipsum 2010-01-01T00:00:00Z</a>
+  <div class=\\"modal fade\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1262304000\\" tabindex=\\"-1\\" role=\\"dialog\\" aria-labelledby=\\"#httploremrssherokuappcomfeedunityear-httpexamplecomtest1262304000-title\\" aria-hidden=\\"true\\">
+    <div class=\\"modal-dialog modal-dialog-centered\\" role=\\"document\\">
+      <div class=\\"modal-content\\">
+        <div class=\\"modal-header\\">
+          <h5 class=\\"modal-title\\" id=\\"httploremrssherokuappcomfeedunityear-httpexamplecomtest1262304000-title\\">Lorem ipsum 2010-01-01T00:00:00Z</h5>
+          <button type=\\"button\\" class=\\"close\\" data-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span aria-hidden=\\"true\\">×</span>
+          </button>
+        </div>
+        <div class=\\"modal-body\\">
+          Amet sunt dolor consequat culpa nulla veniam labore nulla anim.
+        </div>
+        <div class=\\"modal-footer\\">
+          <button type=\\"button\\" class=\\"btn btn-secondary\\" data-dismiss=\\"modal\\">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</li></ul>
   </div>
 </div></div>
       </div>

@@ -1,19 +1,14 @@
-import State from './State';
-import initControllers from './controllers';
-import initViews from './views';
+import '@babel/polyfill';
+import 'bootstrap';
+import 'jquery';
+import 'popper.js';
 
-const initApp = () => {
-  const state = new State();
-  initControllers(state);
-  initViews(state);
-};
+import State from './State';
+import initHandlers from './handlers';
+import initRenders from './renders';
 
 export default () => {
-  if (document.readyState === 'complete') {
-    initApp();
-  } else {
-    document.addEventListener('DOMContentLoaded', () => {
-      initApp();
-    });
-  }
+  const state = new State();
+  initHandlers(state);
+  initRenders(state);
 };

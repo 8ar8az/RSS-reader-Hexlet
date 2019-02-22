@@ -10,32 +10,44 @@ export default class State {
     this.addedFeeds = new Map();
 
     this.lastSuccessAddedFeed = {
-      url: null,
-      feedDocument: null,
+      feedUrl: null,
+      feed: null,
     };
 
     this.lastFailureAddedFeed = {
-      url: null,
+      feedUrl: null,
       error: null,
+    };
+
+    this.lastUpdatedFeed = {
+      feedUrl: null,
+      newArticles: [],
     };
   }
 
-  addProcessedFeed(url) {
-    this.addedFeeds.set(url, null);
+  addProcessedFeed(feedUrl) {
+    this.addedFeeds.set(feedUrl, null);
   }
 
-  addSuccessAddedFeed(url, feedDocument) {
-    this.addedFeeds.set(url, feedDocument);
-    this.lastSuccessAddedFeed = { url, feedDocument };
+  setSuccessAddedFeed(feedUrl, feed) {
+    this.addedFeeds.set(feedUrl, feed);
+    this.lastSuccessAddedFeed = { feedUrl, feed };
   }
 
-  addFailureAddedFeed(url, error) {
-    this.addedFeeds.delete(url);
-    this.lastFailureAddedFeed = { url, error };
+  setFailureAddedFeed(feedUrl, error) {
+    this.addedFeeds.delete(feedUrl);
+    this.lastFailureAddedFeed = { feedUrl, error };
   }
 
-  checkFeedAlreadyAdded(url) {
-    return this.addedFeeds.has(url);
+  updateFeed(feedUrl, newArticles) {
+    this.lastUpdatedFeed = { feedUrl, newArticles };
+
+    const feed = this.addedFeeds.get(feedUrl);
+    this.addedFeeds.set(feedUrl, { ...feed, feedArticles: newArticles.concat(feed.feedArticles) });
+  }
+
+  checkFeedAlreadyAdded(feedUrl) {
+    return this.addedFeeds.has(feedUrl);
   }
 
   setAddFeedProcessForEmptyFeedURL() {
