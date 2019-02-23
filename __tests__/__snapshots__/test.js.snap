@@ -33,7 +33,7 @@ exports[`Input invalid RSS-feed URL 1`] = `
               </div>
               <input type=\\"text\\" name=\\"feed-url\\" id=\\"feed-url\\" class=\\"form-control is-invalid\\" aria-label=\\"rss-feed address\\" aria-describedby=\\"rss-feed-address-input\\" style=\\"background-image: none;\\">
             </div>
-            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" disabled=\\"\\">Подписаться</button>
+            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" disabled=\\"\\" style=\\"width: auto;\\">Подписаться</button>
           </form>
         </div>
       </div>
@@ -81,7 +81,7 @@ exports[`Input valid RSS-feed URL 1`] = `
               </div>
               <input type=\\"text\\" name=\\"feed-url\\" id=\\"feed-url\\" class=\\"form-control\\" aria-label=\\"rss-feed address\\" aria-describedby=\\"rss-feed-address-input\\" style=\\"background-image: none;\\">
             </div>
-            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\">Подписаться</button>
+            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" style=\\"width: auto;\\">Подписаться</button>
           </form>
         </div>
       </div>
@@ -177,7 +177,7 @@ exports[`Submit RSS-feed adding 1`] = `
               </div>
               <input type=\\"text\\" name=\\"feed-url\\" id=\\"feed-url\\" class=\\"form-control\\" aria-label=\\"rss-feed address\\" aria-describedby=\\"rss-feed-address-input\\" style=\\"background-image: none;\\">
             </div>
-            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" style=\\"width: auto;\\">Подписаться</button>
+            <button type=\\"submit\\" name=\\"submit-feed-add\\" id=\\"submit-feed-add\\" class=\\"btn btn-primary btn-lg mt-2 mt-md-0 ml-md-2 ml-auto\\" style=\\"width: auto;\\" disabled=\\"\\">Подписаться</button>
           </form>
         </div>
       </div>

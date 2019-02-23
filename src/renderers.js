@@ -27,32 +27,36 @@ export default (state) => {
   const feedAddingForm = document.querySelector('#form-for-adding-feeds');
   const rssContainer = document.querySelector('.rss-container');
 
-  watch(state.addFeedProcess, 'newFeedUrlValid', () => {
-    if (state.addFeedProcess.newFeedUrlValid) {
-      feedAddingForm.elements['feed-url'].classList.remove('is-invalid');
-    } else {
+  watch(state.feedAddingForm, 'state', () => {
+    if (state.feedAddingForm.is('invalid')) {
       feedAddingForm.elements['feed-url'].classList.add('is-invalid');
       feedAddingForm.elements['feed-url'].style.backgroundImage = 'none';
+    } else {
+      feedAddingForm.elements['feed-url'].classList.remove('is-invalid');
     }
-  });
 
-  watch(state.addFeedProcess, 'feedAddingSubmitDisabled', () => {
-    feedAddingForm.elements['submit-feed-add'].disabled = state.addFeedProcess.feedAddingSubmitDisabled;
-  });
+    if (state.feedAddingForm.is('valid')) {
+      feedAddingForm.elements['submit-feed-add'].disabled = false;
+    } else {
+      feedAddingForm.elements['submit-feed-add'].disabled = true;
+    }
 
-  watch(state.addFeedProcess, 'newFeedUrlDisabled', () => {
-    feedAddingForm.elements['feed-url'].disabled = state.addFeedProcess.newFeedUrlDisabled;
-  });
+    if (state.feedAddingForm.is('empty')) {
+      feedAddingForm.elements['feed-url'].value = '';
+    }
 
-  watch(state.addFeedProcess, 'feedAddingInProcess', () => {
     const button = feedAddingForm.elements['submit-feed-add'];
 
-    if (state.addFeedProcess.feedAddingInProcess) {
+    if (state.feedAddingForm.is('processing')) {
+      feedAddingForm.elements['feed-url'].disabled = true;
+
       const width = button.clientWidth;
       button.textContent = 'В процессе...';
       button.style.width = `${width}px`;
     } else {
-      feedAddingForm.elements['submit-feed-add'].textContent = 'Подписаться';
+      feedAddingForm.elements['feed-url'].disabled = false;
+
+      button.textContent = 'Подписаться';
       button.style.width = 'auto';
     }
   });
@@ -65,8 +69,6 @@ export default (state) => {
     const feedArticlesElements = getFeedArticlesElements(feed.feedArticles, feedId);
     rssFeed.querySelector('.articles-list').append(...feedArticlesElements);
     rssContainer.append(rssFeed);
-
-    feedAddingForm.elements['feed-url'].value = '';
   });
 
   watch(state, 'lastFailureAddedFeed', (prop, action, newValue) => {
@@ -83,6 +85,6 @@ export default (state) => {
     const feedElement = document.querySelector(`#${feedId}`);
 
     const feedArticlesElements = getFeedArticlesElements(newValue.newArticles, feedId);
-    feedElement.querySelector('ul').prepend(...feedArticlesElements);
+    feedElement.querySelector('.articles-list').prepend(...feedArticlesElements);
   });
 };

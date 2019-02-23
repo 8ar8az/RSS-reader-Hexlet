@@ -63,66 +63,64 @@ export default (state) => {
     const inputData = event.target.value;
 
     if (validator.isEmpty(inputData)) {
-      state.setAddFeedProcessForEmptyFeedURL();
+      state.feedAddingForm.clear();
     } else if (
       validator.isURL(inputData, urlValidatorConfig)
       && !state.checkFeedAlreadyAdded(inputData)
     ) {
-      state.setAddFeedProcessForValidFeedURL();
+      state.feedAddingForm.inputValidData();
     } else {
-      state.setAddFeedProcessForInvalidFeedURL();
+      state.feedAddingForm.inputInvalidData();
     }
   });
 
   feedAddingForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    if (state.addFeedProcess.feedAddingSubmitDisabled) {
+    if (!state.feedAddingForm.is('valid')) {
       return;
     }
 
     const feedUrl = event.currentTarget.elements['feed-url'].value;
-    state.setAddFeedProcessForStartAddingProcess();
+    state.feedAddingForm.startFeedAddingProcess();
     state.addProcessedFeed(feedUrl);
 
     downloadFeedData(feedUrl)
       .then(feedData => parseFeedData(feedData, feedUrl))
       .then((feed) => {
-        state.setSuccessAddedFeed(feedUrl, feed);
+        state.feedAddingForm.clear();
+        state.setProcessedFeedAsSuccessful(feedUrl, feed);
       })
       .catch((error) => {
-        state.setFailureAddedFeed(feedUrl, error);
-      })
-      .finally(() => {
-        state.setAddFeedProcessForEndAddingProcess();
+        state.feedAddingForm.inputValidData();
+        state.setProcessedFeedAsFailed(feedUrl, error);
       });
   });
 
   const updateFeed = feedUrl => downloadFeedData(feedUrl)
     .then(feedData => parseFeedData(feedData, feedUrl))
     .then((newFeedVersion) => {
-      const oldFeedVersion = state.addedFeeds.get(feedUrl);
+      const oldFeedVersion = state.getFeedByUrl(feedUrl);
 
       const newArticles = getNewArticles(newFeedVersion.feedArticles, oldFeedVersion.feedArticles);
 
       if (!_.isEmpty(newArticles)) {
         state.updateFeed(feedUrl, newArticles);
       }
-    })
-    .catch(_.noop);
+    });
 
   const updateFeeds = () => {
-    const addedFeedUrls = [...state.addedFeeds.keys()];
+    const addedFeedsUrls = state.getAllAddedFeedsUrls();
 
-    const updatingFeedsPromises = _.map(addedFeedUrls, feedUrl => updateFeed(feedUrl));
+    const updatingFeedsPromises = _.map(addedFeedsUrls, updateFeed);
     const updatingFeedsPromisesByTenItems = _.chunk(updatingFeedsPromises, 10);
 
-    const iter = (updatingFeedsList) => {
-      const setTimerForNextUpdating = () => {
-        setTimeout(() => {
-          updateFeeds();
-        }, 5000);
-      };
+    const setTimerForNextUpdating = () => {
+      setTimeout(() => {
+        updateFeeds();
+      }, 5000);
+    };
 
+    const iter = (updatingFeedsList) => {
       if (_.isEmpty(updatingFeedsList)) {
         setTimerForNextUpdating();
         return;

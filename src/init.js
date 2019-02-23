@@ -5,7 +5,7 @@ import 'popper.js';
 
 import State from './State';
 import initHandlers from './handlers';
-import initRenders from './renders';
+import initRenders from './renderers';
 
 export default () => {
   const state = new State();

@@ -1,11 +1,16 @@
+import StateMachine from 'javascript-state-machine';
+
 export default class State {
   constructor() {
-    this.addFeedProcess = {
-      newFeedUrlValid: true,
-      newFeedUrlDisabled: false,
-      feedAddingSubmitDisabled: true,
-      feedAddingInProcess: false,
-    };
+    this.feedAddingForm = new StateMachine({
+      init: 'empty',
+      transitions: [
+        { name: 'inputInvalidData', from: ['empty', 'valid', 'invalid'], to: 'invalid' },
+        { name: 'inputValidData', from: '*', to: 'valid' },
+        { name: 'clear', from: ['invalid', 'valid', 'processing'], to: 'empty' },
+        { name: 'startFeedAddingProcess', from: 'valid', to: 'processing' },
+      ],
+    });
 
     this.addedFeeds = new Map();
 
@@ -29,12 +34,20 @@ export default class State {
     this.addedFeeds.set(feedUrl, null);
   }
 
-  setSuccessAddedFeed(feedUrl, feed) {
+  getFeedByUrl(feedUrl) {
+    return this.addedFeeds.get(feedUrl);
+  }
+
+  getAllAddedFeedsUrls() {
+    return [...this.addedFeeds.keys()];
+  }
+
+  setProcessedFeedAsSuccessful(feedUrl, feed) {
     this.addedFeeds.set(feedUrl, feed);
     this.lastSuccessAddedFeed = { feedUrl, feed };
   }
 
-  setFailureAddedFeed(feedUrl, error) {
+  setProcessedFeedAsFailed(feedUrl, error) {
     this.addedFeeds.delete(feedUrl);
     this.lastFailureAddedFeed = { feedUrl, error };
   }
@@ -48,32 +61,5 @@ export default class State {
 
   checkFeedAlreadyAdded(feedUrl) {
     return this.addedFeeds.has(feedUrl);
-  }
-
-  setAddFeedProcessForEmptyFeedURL() {
-    this.addFeedProcess.newFeedUrlValid = true;
-    this.addFeedProcess.feedAddingSubmitDisabled = true;
-  }
-
-  setAddFeedProcessForValidFeedURL() {
-    this.addFeedProcess.newFeedUrlValid = true;
-    this.addFeedProcess.feedAddingSubmitDisabled = false;
-  }
-
-  setAddFeedProcessForInvalidFeedURL() {
-    this.addFeedProcess.newFeedUrlValid = false;
-    this.addFeedProcess.feedAddingSubmitDisabled = true;
-  }
-
-  setAddFeedProcessForStartAddingProcess() {
-    this.addFeedProcess.feedAddingInProcess = true;
-    this.addFeedProcess.feedAddingSubmitDisabled = true;
-    this.addFeedProcess.newFeedUrlDisabled = true;
-  }
-
-  setAddFeedProcessForEndAddingProcess() {
-    this.addFeedProcess.feedAddingInProcess = false;
-    this.addFeedProcess.feedAddingSubmitDisabled = false;
-    this.addFeedProcess.newFeedUrlDisabled = false;
   }
 }
